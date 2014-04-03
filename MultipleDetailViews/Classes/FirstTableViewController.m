@@ -77,6 +77,7 @@
 // -------------------------------------------------------------------------------
 - (NSInteger)tableView:(UITableView *)aTableView numberOfRowsInSection:(NSInteger)section 
 {
+    
     // Three rows.
     return 3;
 }
@@ -85,6 +86,13 @@
 //	tableView:cellForRowAtIndexPath:
 // -------------------------------------------------------------------------------
 - (UITableViewCell *)tableView:(UITableView *)aTableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    //Initialisation du bouton qui renvoie aux documents
+    UIBarButtonItem *changeViewButton = [[UIBarButtonItem alloc]
+                                   initWithTitle:@"Documents >"
+                                   style:UIBarButtonItemStyleBordered
+                                   target:self
+                                   action:@selector(flipView)];
+    self.navigationItem.rightBarButtonItem = changeViewButton;
     
     static NSString *CellIdentifier = @"Documents";
     

@@ -131,7 +131,6 @@
      willShowViewController:(UIViewController *)aViewController 
   invalidatingBarButtonItem:(UIBarButtonItem *)barButtonItem
 {
-    self.navigationPaneButtonItem = nil;
     self.navigationPopoverController = nil;
     
     // Tell the detail view controller to remove the navigation button.
