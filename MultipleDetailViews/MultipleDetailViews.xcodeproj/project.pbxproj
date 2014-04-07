@@ -59,6 +59,9 @@
 		D0C6E47615EC37400000A627 /* FirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
 		D0EC68F715F170BA0089CF6F /* DetailViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewManager.h; sourceTree = "<group>"; };
 		D0EC68F815F170BA0089CF6F /* DetailViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewManager.m; sourceTree = "<group>"; };
+		E98AB76C18F2EF890089A8B0 /* FirstTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstTestViewController.h; path = ../FirstTestViewController.h; sourceTree = "<group>"; };
+		E98AB76D18F2EF890089A8B0 /* FirstTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstTestViewController.m; path = ../FirstTestViewController.m; sourceTree = "<group>"; };
+		E98AB76E18F2EF890089A8B0 /* FirstTestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstTestView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E98AB76C18F2EF890089A8B0 /* FirstTestViewController.h */,
+				E98AB76D18F2EF890089A8B0 /* FirstTestViewController.m */,
 				D0EC68F715F170BA0089CF6F /* DetailViewManager.h */,
 				D0EC68F815F170BA0089CF6F /* DetailViewManager.m */,
 				D0C6E47515EC37400000A627 /* FirstTableViewController.h */,
@@ -135,6 +140,7 @@
 				D0B85E8915EE80E6006637B7 /* Icon@2x.png */,
 				7E9552EA11766B410003D25C /* MainWindow.xib */,
 				7E9552E811766B410003D25C /* FirstDetailView.xib */,
+				E98AB76E18F2EF890089A8B0 /* FirstTestView.xib */,
 				7E9552EC11766B410003D25C /* SecondDetailView.xib */,
 				8D1107310486CEB800E47090 /* MultipleDetailViews-Info.plist */,
 			);
@@ -205,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AA66DF115C16850003B21C /* ReadMe.txt in Resources */,
+				E98AB77018F2EF890089A8B0 /* FirstTestView.xib in Resources */,
 				7E9552EE11766B410003D25C /* FirstDetailView.xib in Resources */,
 				7E9552EF11766B410003D25C /* MainWindow.xib in Resources */,
 				7E9552F011766B410003D25C /* SecondDetailView.xib in Resources */,
@@ -230,6 +237,7 @@
 				28AA66DD115C16800003B21C /* SecondDetailViewController.m in Sources */,
 				D0C6E47715EC37400000A627 /* FirstTableViewController.m in Sources */,
 				D061D61E15ED7F1300288918 /* SecondTableViewController.m in Sources */,
+				E98AB76F18F2EF890089A8B0 /* FirstTestViewController.m in Sources */,
 				D0EC68F915F170BA0089CF6F /* DetailViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
