@@ -17,6 +17,8 @@
 	<string>MultipleDetailViews/MultipleDetailViews.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>02A8298F-FCCD-4233-A17A-1A58F4CEBD6D</key>
+		<string>../../../../Desktop/Polytech Salon</string>
 		<key>362BE379-5883-48E1-AC2F-5D16FC51F650</key>
 		<string>../../..</string>
 	</dict>
@@ -35,6 +37,14 @@
 			<string>362BE379-5883-48E1-AC2F-5D16FC51F650</string>
 			<key>IDESourceControlWCCName</key>
 			<string>PolySalon</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>02A8298F-FCCD-4233-A17A-1A58F4CEBD6D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Polytech Salon</string>
 		</dict>
 	</array>
 </dict>

@@ -34,8 +34,8 @@
 		1D6058910D05DD3D006BFB54 /* MultipleDetailViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleDetailViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		28AA66D2115C16800003B21C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		28AA66D3115C16800003B21C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28AA66D2115C16800003B21C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		28AA66D3115C16800003B21C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
 		28AA66D4115C16800003B21C /* FirstDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstDetailViewController.h; sourceTree = "<group>"; };
 		28AA66D5115C16800003B21C /* FirstDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstDetailViewController.m; sourceTree = "<group>"; };
 		28AA66D8115C16800003B21C /* SecondDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondDetailViewController.h; sourceTree = "<group>"; };
@@ -59,9 +59,6 @@
 		D0C6E47615EC37400000A627 /* FirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
 		D0EC68F715F170BA0089CF6F /* DetailViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewManager.h; sourceTree = "<group>"; };
 		D0EC68F815F170BA0089CF6F /* DetailViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewManager.m; sourceTree = "<group>"; };
-		E98AB76C18F2EF890089A8B0 /* FirstTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstTestViewController.h; path = ../FirstTestViewController.h; sourceTree = "<group>"; };
-		E98AB76D18F2EF890089A8B0 /* FirstTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstTestViewController.m; path = ../FirstTestViewController.m; sourceTree = "<group>"; };
-		E98AB76E18F2EF890089A8B0 /* FirstTestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstTestView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +75,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		080E96DDFE201D6D7F000001 /* Classes */ = {
+		080E96DDFE201D6D7F000001 /* UI Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E98AB76C18F2EF890089A8B0 /* FirstTestViewController.h */,
-				E98AB76D18F2EF890089A8B0 /* FirstTestViewController.m */,
 				D0EC68F715F170BA0089CF6F /* DetailViewManager.h */,
 				D0EC68F815F170BA0089CF6F /* DetailViewManager.m */,
 				D0C6E47515EC37400000A627 /* FirstTableViewController.h */,
@@ -93,9 +88,8 @@
 				28AA66D5115C16800003B21C /* FirstDetailViewController.m */,
 				28AA66D8115C16800003B21C /* SecondDetailViewController.h */,
 				28AA66D9115C16800003B21C /* SecondDetailViewController.m */,
-				28AA66D2115C16800003B21C /* AppDelegate.h */,
-				28AA66D3115C16800003B21C /* AppDelegate.m */,
 			);
+			name = "UI Classes";
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -111,7 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				28AA66DE115C16850003B21C /* ReadMe.txt */,
-				080E96DDFE201D6D7F000001 /* Classes */,
+				080E96DDFE201D6D7F000001 /* UI Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
@@ -123,6 +117,8 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				28AA66D2115C16800003B21C /* AppDelegate.h */,
+				28AA66D3115C16800003B21C /* AppDelegate.m */,
 				32CA4F630368D1EE00C91783 /* MultipleDetailViews_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
@@ -140,7 +136,6 @@
 				D0B85E8915EE80E6006637B7 /* Icon@2x.png */,
 				7E9552EA11766B410003D25C /* MainWindow.xib */,
 				7E9552E811766B410003D25C /* FirstDetailView.xib */,
-				E98AB76E18F2EF890089A8B0 /* FirstTestView.xib */,
 				7E9552EC11766B410003D25C /* SecondDetailView.xib */,
 				8D1107310486CEB800E47090 /* MultipleDetailViews-Info.plist */,
 			);
@@ -211,7 +206,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AA66DF115C16850003B21C /* ReadMe.txt in Resources */,
-				E98AB77018F2EF890089A8B0 /* FirstTestView.xib in Resources */,
 				7E9552EE11766B410003D25C /* FirstDetailView.xib in Resources */,
 				7E9552EF11766B410003D25C /* MainWindow.xib in Resources */,
 				7E9552F011766B410003D25C /* SecondDetailView.xib in Resources */,
@@ -237,7 +231,6 @@
 				28AA66DD115C16800003B21C /* SecondDetailViewController.m in Sources */,
 				D0C6E47715EC37400000A627 /* FirstTableViewController.m in Sources */,
 				D061D61E15ED7F1300288918 /* SecondTableViewController.m in Sources */,
-				E98AB76F18F2EF890089A8B0 /* FirstTestViewController.m in Sources */,
 				D0EC68F915F170BA0089CF6F /* DetailViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,7 +1,7 @@
 
 
 #import "AppDelegate.h"
-#import "FIrstTestViewController.h"
+#import "FirstDetailViewController.h"
 
 @implementation AppDelegate
 
@@ -25,7 +25,7 @@
     [ftvc release];
 	*/
 	// Initialize the app window
-    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] ;
     self.window.rootViewController = self.splitViewController;
     [self.window makeKeyAndVisible];
     
@@ -37,16 +37,6 @@
 	return YES;
 }
 
-// -------------------------------------------------------------------------------
-//	dealloc
-// -------------------------------------------------------------------------------
-- (void)dealloc 
-{
-    [_detailViewManager release];
-    [_splitViewController release];
-    [_window release];
-    [super dealloc];
-}
 
 
 @end

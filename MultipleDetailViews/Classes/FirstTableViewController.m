@@ -11,6 +11,11 @@
 #pragma mark -
 #pragma mark Rotation support
 
+-(void)viewDidLoad
+{
+    self.navigationItem.title=@"Pools";
+}
+
 // -------------------------------------------------------------------------------
 //	shouldAutorotateToInterfaceOrientation:
 // -------------------------------------------------------------------------------
@@ -37,7 +42,6 @@
 {
     SecondTableViewController *newTableViewController = [[SecondTableViewController alloc] init];
     [self.navigationController pushViewController:newTableViewController animated:YES];
-    
     [newTableViewController release];
 }
 
@@ -71,7 +75,7 @@
     
     // ICI pour charger les documents en mémoire
     else if (indexPath.row == 1) {
-        cell.textLabel.text = @"Créer DOcuments";
+        cell.textLabel.text = @"Créer Documents";
         cell.accessoryType = UITableViewCellAccessoryNone ;
     }
     else if (indexPath.row==2){

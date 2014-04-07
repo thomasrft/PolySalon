@@ -15,6 +15,10 @@
 
 @implementation DetailViewManager
 
+-(bool)viewDidLoad
+{
+    return true;
+}
 // -------------------------------------------------------------------------------
 //	setDetailViewController:
 //  Custom implementation of the setter for the detailViewController property.
