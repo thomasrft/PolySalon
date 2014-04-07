@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0731D42418CCA32300373AE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0731D42318CCA32300373AE1 /* Foundation.framework */; };
+		0731D42618CCA32300373AE1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0731D42518CCA32300373AE1 /* CoreGraphics.framework */; };
+		0731D42818CCA32300373AE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0731D42718CCA32300373AE1 /* UIKit.framework */; };
+		0731D42E18CCA32300373AE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0731D42C18CCA32300373AE1 /* InfoPlist.strings */; };
+		0731D43018CCA32300373AE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0731D42F18CCA32300373AE1 /* main.m */; };
+		0731D43418CCA32300373AE1 /* PSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0731D43318CCA32300373AE1 /* PSAppDelegate.m */; };
+		0731D43618CCA32300373AE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0731D43518CCA32300373AE1 /* Images.xcassets */; };
+		0731D43D18CCA32300373AE1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0731D43C18CCA32300373AE1 /* XCTest.framework */; };
+		0731D43E18CCA32300373AE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0731D42318CCA32300373AE1 /* Foundation.framework */; };
+		0731D43F18CCA32300373AE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0731D42718CCA32300373AE1 /* UIKit.framework */; };
+		0731D44718CCA32300373AE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0731D44518CCA32300373AE1 /* InfoPlist.strings */; };
+		0731D45518CCA72700373AE1 /* Polytech_Salon.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0731D45418CCA72700373AE1 /* Polytech_Salon.storyboard */; };
+		0731D45618CCA72700373AE1 /* Polytech_Salon.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0731D45418CCA72700373AE1 /* Polytech_Salon.storyboard */; };
+		0731D45918CCA7B900373AE1 /* PSType.m in Sources */ = {isa = PBXBuildFile; fileRef = 0731D45818CCA7B900373AE1 /* PSType.m */; };
+		0731D45A18CCA7B900373AE1 /* PSType.m in Sources */ = {isa = PBXBuildFile; fileRef = 0731D45818CCA7B900373AE1 /* PSType.m */; };
+		0731D45D18CCBB4200373AE1 /* PSDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 0731D45C18CCBB4200373AE1 /* PSDocument.m */; };
+		0731D45E18CCBB4200373AE1 /* PSDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 0731D45C18CCBB4200373AE1 /* PSDocument.m */; };
+		0731D46118CCFCEF00373AE1 /* PSArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 0731D46018CCFCEF00373AE1 /* PSArea.m */; };
+		0731D46218CCFCEF00373AE1 /* PSArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 0731D46018CCFCEF00373AE1 /* PSArea.m */; };
+		0731D46518CCFF0E00373AE1 /* PSPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0731D46418CCFF0E00373AE1 /* PSPool.m */; };
+		0731D46618CCFF0E00373AE1 /* PSPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0731D46418CCFF0E00373AE1 /* PSPool.m */; };
+		0731D46918CD032A00373AE1 /* PSLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 0731D46818CD032A00373AE1 /* PSLibrary.m */; };
+		0731D46A18CD032A00373AE1 /* PSLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 0731D46818CD032A00373AE1 /* PSLibrary.m */; };
+		0731D47218CDAD2E00373AE1 /* Polytech_SalonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0731D47018CDAD2E00373AE1 /* Polytech_SalonTests.m */; };
+		0760E1E118CDF0E5006133F3 /* PSPoolTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0760E1E018CDF0E5006133F3 /* PSPoolTableViewController.m */; };
+		0760E1E418CDF1A4006133F3 /* PSPoolCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0760E1E318CDF1A4006133F3 /* PSPoolCell.m */; };
+		0760E26318D03A95006133F3 /* CFDefaultModelDelegateObserved.m in Sources */ = {isa = PBXBuildFile; fileRef = 0760E25E18D03A95006133F3 /* CFDefaultModelDelegateObserved.m */; };
+		0760E26418D03A95006133F3 /* CFDefaultModelObserved.m in Sources */ = {isa = PBXBuildFile; fileRef = 0760E26018D03A95006133F3 /* CFDefaultModelObserved.m */; };
+		0760E27218D04144006133F3 /* PSSetOfTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 0760E27118D04144006133F3 /* PSSetOfTypes.m */; };
+		0760E27318D04144006133F3 /* PSSetOfTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 0760E27118D04144006133F3 /* PSSetOfTypes.m */; };
+		0760E27618D04A1B006133F3 /* PSSetOfAreas.m in Sources */ = {isa = PBXBuildFile; fileRef = 0760E27518D04A1B006133F3 /* PSSetOfAreas.m */; };
+		0760E27718D04A1B006133F3 /* PSSetOfAreas.m in Sources */ = {isa = PBXBuildFile; fileRef = 0760E27518D04A1B006133F3 /* PSSetOfAreas.m */; };
+		0760E27A18D0B9A0006133F3 /* PSSetIndexedByName.m in Sources */ = {isa = PBXBuildFile; fileRef = 0760E27918D0B9A0006133F3 /* PSSetIndexedByName.m */; };
+		0760E27B18D0B9A0006133F3 /* PSSetIndexedByName.m in Sources */ = {isa = PBXBuildFile; fileRef = 0760E27918D0B9A0006133F3 /* PSSetIndexedByName.m */; };
+		0760E27E18D1EF42006133F3 /* NSMutableSet+PSSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0760E27D18D1EF42006133F3 /* NSMutableSet+PSSet.m */; };
+		0760E27F18D1EF42006133F3 /* NSMutableSet+PSSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0760E27D18D1EF42006133F3 /* NSMutableSet+PSSet.m */; };
+		079F6B1C18D59B0700943066 /* Library property backup in Resources */ = {isa = PBXBuildFile; fileRef = 079F6B1B18D59B0700943066 /* Library property backup */; };
+		07B5554818D369D900EBA151 /* PSDataDocuments.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B5554718D369D900EBA151 /* PSDataDocuments.m */; };
+		07B5554918D369D900EBA151 /* PSDataDocuments.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B5554718D369D900EBA151 /* PSDataDocuments.m */; };
+		07B5554B18D46C3600EBA151 /* Library property.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07B5554A18D46C3600EBA151 /* Library property.plist */; };
+		07B5554C18D46C3600EBA151 /* Library property.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07B5554A18D46C3600EBA151 /* Library property.plist */; };
+		E98AB7B718F36F2A0089A8B0 /* DetailViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7AE18F36F2A0089A8B0 /* DetailViewManager.m */; };
+		E98AB7B818F36F2A0089A8B0 /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7B018F36F2A0089A8B0 /* FirstTableViewController.m */; };
+		E98AB7B918F36F2A0089A8B0 /* SecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7B218F36F2A0089A8B0 /* SecondTableViewController.m */; };
+		E98AB7BA18F36F2A0089A8B0 /* FirstDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7B418F36F2A0089A8B0 /* FirstDetailViewController.m */; };
+		E98AB7BB18F36F2A0089A8B0 /* SecondDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7B618F36F2A0089A8B0 /* SecondDetailViewController.m */; };
+		E98AB7C218F370140089A8B0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E98AB7BC18F370140089A8B0 /* MainWindow.xib */; };
+		E98AB7C318F370140089A8B0 /* FirstDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E98AB7BE18F370140089A8B0 /* FirstDetailView.xib */; };
+		E98AB7C418F370140089A8B0 /* SecondDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E98AB7C018F370140089A8B0 /* SecondDetailView.xib */; };
+		E98AB7C718F370580089A8B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7C618F370580089A8B0 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0731D44018CCA32300373AE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0731D41818CCA32300373AE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0731D41F18CCA32300373AE1;
+			remoteInfo = "Polytech Salon";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0731D42018CCA32300373AE1 /* Polytech Salon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Polytech Salon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0731D42318CCA32300373AE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0731D42518CCA32300373AE1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0731D42718CCA32300373AE1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0731D42B18CCA32300373AE1 /* Polytech Salon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Polytech Salon-Info.plist"; sourceTree = "<group>"; };
+		0731D42D18CCA32300373AE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0731D42F18CCA32300373AE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0731D43118CCA32300373AE1 /* Polytech Salon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Polytech Salon-Prefix.pch"; sourceTree = "<group>"; };
+		0731D43218CCA32300373AE1 /* PSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSAppDelegate.h; sourceTree = "<group>"; };
+		0731D43318CCA32300373AE1 /* PSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSAppDelegate.m; sourceTree = "<group>"; };
+		0731D43518CCA32300373AE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0731D43B18CCA32300373AE1 /* Polytech SalonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Polytech SalonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0731D43C18CCA32300373AE1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0731D44418CCA32300373AE1 /* Polytech SalonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Polytech SalonTests-Info.plist"; sourceTree = "<group>"; };
+		0731D44618CCA32300373AE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0731D45218CCA68F00373AE1 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0731D45318CCA68F00373AE1 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0731D45418CCA72700373AE1 /* Polytech_Salon.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Polytech_Salon.storyboard; sourceTree = "<group>"; };
+		0731D45718CCA7B900373AE1 /* PSType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSType.h; sourceTree = "<group>"; usesTabs = 0; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		0731D45818CCA7B900373AE1 /* PSType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSType.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		0731D45B18CCBB4200373AE1 /* PSDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSDocument.h; sourceTree = "<group>"; };
+		0731D45C18CCBB4200373AE1 /* PSDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSDocument.m; sourceTree = "<group>"; };
+		0731D45F18CCFCEF00373AE1 /* PSArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSArea.h; sourceTree = "<group>"; };
+		0731D46018CCFCEF00373AE1 /* PSArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSArea.m; sourceTree = "<group>"; };
+		0731D46318CCFF0E00373AE1 /* PSPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPool.h; sourceTree = "<group>"; };
+		0731D46418CCFF0E00373AE1 /* PSPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPool.m; sourceTree = "<group>"; };
+		0731D46718CD032A00373AE1 /* PSLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSLibrary.h; sourceTree = "<group>"; };
+		0731D46818CD032A00373AE1 /* PSLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSLibrary.m; sourceTree = "<group>"; };
+		0731D47018CDAD2E00373AE1 /* Polytech_SalonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Polytech_SalonTests.m; sourceTree = "<group>"; };
+		0760E1DF18CDF0E5006133F3 /* PSPoolTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPoolTableViewController.h; sourceTree = "<group>"; };
+		0760E1E018CDF0E5006133F3 /* PSPoolTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPoolTableViewController.m; sourceTree = "<group>"; };
+		0760E1E218CDF1A4006133F3 /* PSPoolCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPoolCell.h; sourceTree = "<group>"; };
+		0760E1E318CDF1A4006133F3 /* PSPoolCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPoolCell.m; sourceTree = "<group>"; };
+		0760E25D18D03A95006133F3 /* CFDefaultModelDelegateObserved.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFDefaultModelDelegateObserved.h; sourceTree = "<group>"; };
+		0760E25E18D03A95006133F3 /* CFDefaultModelDelegateObserved.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFDefaultModelDelegateObserved.m; sourceTree = "<group>"; };
+		0760E25F18D03A95006133F3 /* CFDefaultModelObserved.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFDefaultModelObserved.h; sourceTree = "<group>"; };
+		0760E26018D03A95006133F3 /* CFDefaultModelObserved.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFDefaultModelObserved.m; sourceTree = "<group>"; };
+		0760E26118D03A95006133F3 /* CFModelObserved.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFModelObserved.h; sourceTree = "<group>"; };
+		0760E26218D03A95006133F3 /* CFObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFObserver.h; sourceTree = "<group>"; };
+		0760E27018D04143006133F3 /* PSSetOfTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSSetOfTypes.h; sourceTree = "<group>"; };
+		0760E27118D04144006133F3 /* PSSetOfTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSSetOfTypes.m; sourceTree = "<group>"; };
+		0760E27418D04A1B006133F3 /* PSSetOfAreas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSSetOfAreas.h; sourceTree = "<group>"; };
+		0760E27518D04A1B006133F3 /* PSSetOfAreas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSSetOfAreas.m; sourceTree = "<group>"; };
+		0760E27818D0B9A0006133F3 /* PSSetIndexedByName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSSetIndexedByName.h; sourceTree = "<group>"; };
+		0760E27918D0B9A0006133F3 /* PSSetIndexedByName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSSetIndexedByName.m; sourceTree = "<group>"; };
+		0760E27C18D1EF42006133F3 /* NSMutableSet+PSSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableSet+PSSet.h"; sourceTree = "<group>"; };
+		0760E27D18D1EF42006133F3 /* NSMutableSet+PSSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableSet+PSSet.m"; sourceTree = "<group>"; };
+		079F6B1B18D59B0700943066 /* Library property backup */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Library property backup"; sourceTree = SOURCE_ROOT; };
+		07B5554518D2FE0900EBA151 /* PSObjectWithName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSObjectWithName.h; sourceTree = "<group>"; };
+		07B5554618D369D800EBA151 /* PSDataDocuments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSDataDocuments.h; sourceTree = "<group>"; };
+		07B5554718D369D900EBA151 /* PSDataDocuments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSDataDocuments.m; sourceTree = "<group>"; };
+		07B5554A18D46C3600EBA151 /* Library property.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Library property.plist"; path = "../Library property.plist"; sourceTree = "<group>"; };
+		E98AB7AD18F36F2A0089A8B0 /* DetailViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewManager.h; sourceTree = "<group>"; };
+		E98AB7AE18F36F2A0089A8B0 /* DetailViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewManager.m; sourceTree = "<group>"; };
+		E98AB7AF18F36F2A0089A8B0 /* FirstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewController.h; sourceTree = "<group>"; };
+		E98AB7B018F36F2A0089A8B0 /* FirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
+		E98AB7B118F36F2A0089A8B0 /* SecondTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTableViewController.h; sourceTree = "<group>"; };
+		E98AB7B218F36F2A0089A8B0 /* SecondTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTableViewController.m; sourceTree = "<group>"; };
+		E98AB7B318F36F2A0089A8B0 /* FirstDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstDetailViewController.h; sourceTree = "<group>"; };
+		E98AB7B418F36F2A0089A8B0 /* FirstDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstDetailViewController.m; sourceTree = "<group>"; };
+		E98AB7B518F36F2A0089A8B0 /* SecondDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondDetailViewController.h; sourceTree = "<group>"; };
+		E98AB7B618F36F2A0089A8B0 /* SecondDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondDetailViewController.m; sourceTree = "<group>"; };
+		E98AB7BD18F370140089A8B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = ../../PolySalon/MultipleDetailViews/en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E98AB7BF18F370140089A8B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = ../../PolySalon/MultipleDetailViews/en.lproj/FirstDetailView.xib; sourceTree = "<group>"; };
+		E98AB7C118F370140089A8B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = ../../PolySalon/MultipleDetailViews/en.lproj/SecondDetailView.xib; sourceTree = "<group>"; };
+		E98AB7C518F370580089A8B0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../../PolySalon/MultipleDetailViews/Classes/AppDelegate.h; sourceTree = "<group>"; };
+		E98AB7C618F370580089A8B0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../../PolySalon/MultipleDetailViews/Classes/AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0731D41D18CCA32300373AE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0731D42618CCA32300373AE1 /* CoreGraphics.framework in Frameworks */,
+				0731D42818CCA32300373AE1 /* UIKit.framework in Frameworks */,
+				0731D42418CCA32300373AE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0731D43818CCA32300373AE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0731D43D18CCA32300373AE1 /* XCTest.framework in Frameworks */,
+				0731D43F18CCA32300373AE1 /* UIKit.framework in Frameworks */,
+				0731D43E18CCA32300373AE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0731D41718CCA32300373AE1 = {
+			isa = PBXGroup;
+			children = (
+				E98AB7AC18F36EBB0089A8B0 /* UI Classes */,
+				0760E25C18D03A63006133F3 /* Observer design pattern */,
+				0760E25A18D039B5006133F3 /* Business classes */,
+				0760E25B18D03A07006133F3 /* Model classes */,
+				0731D45418CCA72700373AE1 /* Polytech_Salon.storyboard */,
+				E98AB7BC18F370140089A8B0 /* MainWindow.xib */,
+				E98AB7BE18F370140089A8B0 /* FirstDetailView.xib */,
+				E98AB7C018F370140089A8B0 /* SecondDetailView.xib */,
+				0731D42918CCA32300373AE1 /* Polytech Salon */,
+				0731D44218CCA32300373AE1 /* Polytech SalonTests */,
+				0731D42218CCA32300373AE1 /* Frameworks */,
+				0731D42118CCA32300373AE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0731D42118CCA32300373AE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0731D42018CCA32300373AE1 /* Polytech Salon.app */,
+				0731D43B18CCA32300373AE1 /* Polytech SalonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0731D42218CCA32300373AE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0731D42318CCA32300373AE1 /* Foundation.framework */,
+				0731D42518CCA32300373AE1 /* CoreGraphics.framework */,
+				0731D42718CCA32300373AE1 /* UIKit.framework */,
+				0731D43C18CCA32300373AE1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0731D42918CCA32300373AE1 /* Polytech Salon */ = {
+			isa = PBXGroup;
+			children = (
+				E98AB7C518F370580089A8B0 /* AppDelegate.h */,
+				E98AB7C618F370580089A8B0 /* AppDelegate.m */,
+				0731D43218CCA32300373AE1 /* PSAppDelegate.h */,
+				0731D43318CCA32300373AE1 /* PSAppDelegate.m */,
+				0731D43518CCA32300373AE1 /* Images.xcassets */,
+				0731D42A18CCA32300373AE1 /* Supporting Files */,
+			);
+			path = "Polytech Salon";
+			sourceTree = "<group>";
+		};
+		0731D42A18CCA32300373AE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07B5554A18D46C3600EBA151 /* Library property.plist */,
+				079F6B1B18D59B0700943066 /* Library property backup */,
+				0731D42B18CCA32300373AE1 /* Polytech Salon-Info.plist */,
+				0731D42C18CCA32300373AE1 /* InfoPlist.strings */,
+				0731D42F18CCA32300373AE1 /* main.m */,
+				0731D43118CCA32300373AE1 /* Polytech Salon-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0731D44218CCA32300373AE1 /* Polytech SalonTests */ = {
+			isa = PBXGroup;
+			children = (
+				0731D47018CDAD2E00373AE1 /* Polytech_SalonTests.m */,
+				0731D44318CCA32300373AE1 /* Supporting Files */,
+			);
+			path = "Polytech SalonTests";
+			sourceTree = "<group>";
+		};
+		0731D44318CCA32300373AE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0731D44418CCA32300373AE1 /* Polytech SalonTests-Info.plist */,
+				0731D44518CCA32300373AE1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0760E25A18D039B5006133F3 /* Business classes */ = {
+			isa = PBXGroup;
+			children = (
+				0731D46718CD032A00373AE1 /* PSLibrary.h */,
+				0731D46818CD032A00373AE1 /* PSLibrary.m */,
+				0731D45718CCA7B900373AE1 /* PSType.h */,
+				0731D45818CCA7B900373AE1 /* PSType.m */,
+				0731D45B18CCBB4200373AE1 /* PSDocument.h */,
+				0731D45C18CCBB4200373AE1 /* PSDocument.m */,
+				0731D45F18CCFCEF00373AE1 /* PSArea.h */,
+				0731D46018CCFCEF00373AE1 /* PSArea.m */,
+				0731D46318CCFF0E00373AE1 /* PSPool.h */,
+				0731D46418CCFF0E00373AE1 /* PSPool.m */,
+				0760E27418D04A1B006133F3 /* PSSetOfAreas.h */,
+				0760E27518D04A1B006133F3 /* PSSetOfAreas.m */,
+				0760E27C18D1EF42006133F3 /* NSMutableSet+PSSet.h */,
+				0760E27D18D1EF42006133F3 /* NSMutableSet+PSSet.m */,
+				0760E27018D04143006133F3 /* PSSetOfTypes.h */,
+				0760E27118D04144006133F3 /* PSSetOfTypes.m */,
+				0760E27818D0B9A0006133F3 /* PSSetIndexedByName.h */,
+				0760E27918D0B9A0006133F3 /* PSSetIndexedByName.m */,
+				07B5554518D2FE0900EBA151 /* PSObjectWithName.h */,
+			);
+			name = "Business classes";
+			sourceTree = "<group>";
+		};
+		0760E25B18D03A07006133F3 /* Model classes */ = {
+			isa = PBXGroup;
+			children = (
+				07B5554618D369D800EBA151 /* PSDataDocuments.h */,
+				07B5554718D369D900EBA151 /* PSDataDocuments.m */,
+			);
+			name = "Model classes";
+			sourceTree = "<group>";
+		};
+		0760E25C18D03A63006133F3 /* Observer design pattern */ = {
+			isa = PBXGroup;
+			children = (
+				0760E25D18D03A95006133F3 /* CFDefaultModelDelegateObserved.h */,
+				0760E25E18D03A95006133F3 /* CFDefaultModelDelegateObserved.m */,
+				0760E25F18D03A95006133F3 /* CFDefaultModelObserved.h */,
+				0760E26018D03A95006133F3 /* CFDefaultModelObserved.m */,
+				0760E26118D03A95006133F3 /* CFModelObserved.h */,
+				0760E26218D03A95006133F3 /* CFObserver.h */,
+			);
+			name = "Observer design pattern";
+			sourceTree = "<group>";
+		};
+		E98AB7AC18F36EBB0089A8B0 /* UI Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E98AB7AD18F36F2A0089A8B0 /* DetailViewManager.h */,
+				E98AB7AE18F36F2A0089A8B0 /* DetailViewManager.m */,
+				E98AB7AF18F36F2A0089A8B0 /* FirstTableViewController.h */,
+				E98AB7B018F36F2A0089A8B0 /* FirstTableViewController.m */,
+				E98AB7B118F36F2A0089A8B0 /* SecondTableViewController.h */,
+				E98AB7B218F36F2A0089A8B0 /* SecondTableViewController.m */,
+				E98AB7B318F36F2A0089A8B0 /* FirstDetailViewController.h */,
+				E98AB7B418F36F2A0089A8B0 /* FirstDetailViewController.m */,
+				E98AB7B518F36F2A0089A8B0 /* SecondDetailViewController.h */,
+				E98AB7B618F36F2A0089A8B0 /* SecondDetailViewController.m */,
+				0760E1DF18CDF0E5006133F3 /* PSPoolTableViewController.h */,
+				0760E1E018CDF0E5006133F3 /* PSPoolTableViewController.m */,
+				0760E1E218CDF1A4006133F3 /* PSPoolCell.h */,
+				0760E1E318CDF1A4006133F3 /* PSPoolCell.m */,
+			);
+			name = "UI Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0731D41F18CCA32300373AE1 /* Polytech Salon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0731D44C18CCA32300373AE1 /* Build configuration list for PBXNativeTarget "Polytech Salon" */;
+			buildPhases = (
+				0731D41C18CCA32300373AE1 /* Sources */,
+				0731D41D18CCA32300373AE1 /* Frameworks */,
+				0731D41E18CCA32300373AE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Polytech Salon";
+			productName = "Polytech Salon";
+			productReference = 0731D42018CCA32300373AE1 /* Polytech Salon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0731D43A18CCA32300373AE1 /* Polytech SalonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0731D44F18CCA32300373AE1 /* Build configuration list for PBXNativeTarget "Polytech SalonTests" */;
+			buildPhases = (
+				0731D43718CCA32300373AE1 /* Sources */,
+				0731D43818CCA32300373AE1 /* Frameworks */,
+				0731D43918CCA32300373AE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0731D44118CCA32300373AE1 /* PBXTargetDependency */,
+			);
+			name = "Polytech SalonTests";
+			productName = "Polytech SalonTests";
+			productReference = 0731D43B18CCA32300373AE1 /* Polytech SalonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0731D41818CCA32300373AE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Fiorio Christophe";
+				TargetAttributes = {
+					0731D41F18CCA32300373AE1 = {
+						DevelopmentTeam = CA7S44LH6S;
+					};
+					0731D43A18CCA32300373AE1 = {
+						TestTargetID = 0731D41F18CCA32300373AE1;
+					};
+				};
+			};
+			buildConfigurationList = 0731D41B18CCA32300373AE1 /* Build configuration list for PBXProject "Polytech Salon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+			);
+			mainGroup = 0731D41718CCA32300373AE1;
+			productRefGroup = 0731D42118CCA32300373AE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0731D41F18CCA32300373AE1 /* Polytech Salon */,
+				0731D43A18CCA32300373AE1 /* Polytech SalonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0731D41E18CCA32300373AE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98AB7C318F370140089A8B0 /* FirstDetailView.xib in Resources */,
+				0731D42E18CCA32300373AE1 /* InfoPlist.strings in Resources */,
+				079F6B1C18D59B0700943066 /* Library property backup in Resources */,
+				E98AB7C218F370140089A8B0 /* MainWindow.xib in Resources */,
+				0731D45518CCA72700373AE1 /* Polytech_Salon.storyboard in Resources */,
+				07B5554B18D46C3600EBA151 /* Library property.plist in Resources */,
+				0731D43618CCA32300373AE1 /* Images.xcassets in Resources */,
+				E98AB7C418F370140089A8B0 /* SecondDetailView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0731D43918CCA32300373AE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B5554C18D46C3600EBA151 /* Library property.plist in Resources */,
+				0731D45618CCA72700373AE1 /* Polytech_Salon.storyboard in Resources */,
+				0731D44718CCA32300373AE1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0731D41C18CCA32300373AE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98AB7C718F370580089A8B0 /* AppDelegate.m in Sources */,
+				0731D43018CCA32300373AE1 /* main.m in Sources */,
+				0731D45D18CCBB4200373AE1 /* PSDocument.m in Sources */,
+				0760E26318D03A95006133F3 /* CFDefaultModelDelegateObserved.m in Sources */,
+				0731D46518CCFF0E00373AE1 /* PSPool.m in Sources */,
+				0760E27A18D0B9A0006133F3 /* PSSetIndexedByName.m in Sources */,
+				0760E26418D03A95006133F3 /* CFDefaultModelObserved.m in Sources */,
+				0731D45918CCA7B900373AE1 /* PSType.m in Sources */,
+				0760E1E118CDF0E5006133F3 /* PSPoolTableViewController.m in Sources */,
+				E98AB7BA18F36F2A0089A8B0 /* FirstDetailViewController.m in Sources */,
+				E98AB7B818F36F2A0089A8B0 /* FirstTableViewController.m in Sources */,
+				0760E1E418CDF1A4006133F3 /* PSPoolCell.m in Sources */,
+				0760E27618D04A1B006133F3 /* PSSetOfAreas.m in Sources */,
+				0731D46918CD032A00373AE1 /* PSLibrary.m in Sources */,
+				07B5554818D369D900EBA151 /* PSDataDocuments.m in Sources */,
+				0760E27218D04144006133F3 /* PSSetOfTypes.m in Sources */,
+				0760E27E18D1EF42006133F3 /* NSMutableSet+PSSet.m in Sources */,
+				E98AB7B918F36F2A0089A8B0 /* SecondTableViewController.m in Sources */,
+				0731D46118CCFCEF00373AE1 /* PSArea.m in Sources */,
+				E98AB7B718F36F2A0089A8B0 /* DetailViewManager.m in Sources */,
+				E98AB7BB18F36F2A0089A8B0 /* SecondDetailViewController.m in Sources */,
+				0731D43418CCA32300373AE1 /* PSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0731D43718CCA32300373AE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0760E27F18D1EF42006133F3 /* NSMutableSet+PSSet.m in Sources */,
+				0731D46618CCFF0E00373AE1 /* PSPool.m in Sources */,
+				0760E27B18D0B9A0006133F3 /* PSSetIndexedByName.m in Sources */,
+				0731D45E18CCBB4200373AE1 /* PSDocument.m in Sources */,
+				0731D47218CDAD2E00373AE1 /* Polytech_SalonTests.m in Sources */,
+				0731D45A18CCA7B900373AE1 /* PSType.m in Sources */,
+				0760E27318D04144006133F3 /* PSSetOfTypes.m in Sources */,
+				0731D46A18CD032A00373AE1 /* PSLibrary.m in Sources */,
+				0731D46218CCFCEF00373AE1 /* PSArea.m in Sources */,
+				07B5554918D369D900EBA151 /* PSDataDocuments.m in Sources */,
+				0760E27718D04A1B006133F3 /* PSSetOfAreas.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0731D44118CCA32300373AE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0731D41F18CCA32300373AE1 /* Polytech Salon */;
+			targetProxy = 0731D44018CCA32300373AE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0731D42C18CCA32300373AE1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0731D42D18CCA32300373AE1 /* en */,
+				0731D45218CCA68F00373AE1 /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0731D44518CCA32300373AE1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0731D44618CCA32300373AE1 /* en */,
+				0731D45318CCA68F00373AE1 /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E98AB7BC18F370140089A8B0 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E98AB7BD18F370140089A8B0 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E98AB7BE18F370140089A8B0 /* FirstDetailView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E98AB7BF18F370140089A8B0 /* en */,
+			);
+			name = FirstDetailView.xib;
+			sourceTree = "<group>";
+		};
+		E98AB7C018F370140089A8B0 /* SecondDetailView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E98AB7C118F370140089A8B0 /* en */,
+			);
+			name = SecondDetailView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0731D44A18CCA32300373AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		0731D44B18CCA32300373AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0731D44D18CCA32300373AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Polytech Salon/Polytech Salon-Prefix.pch";
+				INFOPLIST_FILE = "Polytech Salon/Polytech Salon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0731D44E18CCA32300373AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Polytech Salon/Polytech Salon-Prefix.pch";
+				INFOPLIST_FILE = "Polytech Salon/Polytech Salon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0731D45018CCA32300373AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Polytech Salon.app/Polytech Salon";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Polytech Salon/Polytech Salon-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Polytech SalonTests/Polytech SalonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0731D45118CCA32300373AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Polytech Salon.app/Polytech Salon";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Polytech Salon/Polytech Salon-Prefix.pch";
+				INFOPLIST_FILE = "Polytech SalonTests/Polytech SalonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0731D41B18CCA32300373AE1 /* Build configuration list for PBXProject "Polytech Salon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0731D44A18CCA32300373AE1 /* Debug */,
+				0731D44B18CCA32300373AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0731D44C18CCA32300373AE1 /* Build configuration list for PBXNativeTarget "Polytech Salon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0731D44D18CCA32300373AE1 /* Debug */,
+				0731D44E18CCA32300373AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0731D44F18CCA32300373AE1 /* Build configuration list for PBXNativeTarget "Polytech SalonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0731D45018CCA32300373AE1 /* Debug */,
+				0731D45118CCA32300373AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0731D41818CCA32300373AE1 /* Project object */;
+}

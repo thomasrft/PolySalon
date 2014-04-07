@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>types</key>
+	<array>
+		<string>URL</string>
+		<string>Pdf</string>
+		<string>Jpeg</string>
+	</array>
+	<key>areas</key>
+	<array>
+		<string>IG</string>
+		<string>ERII</string>
+		<string>Mat</string>
+		<string>M&amp;I</string>
+		<string>STE</string>
+		<string>STIA</string>
+		<string>MSI</string>
+		<string>EGC</string>
+		<string>SE</string>
+		<string>ENR</string>
+	</array>
+	<key>documents</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Plaquette IG</string>
+			<key>area</key>
+			<string>IG</string>
+			<key>type</key>
+			<string>URL</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Syllabus IG</string>
+			<key>area</key>
+			<string>IG</string>
+			<key>type</key>
+			<string>URL</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Plaquette ERII</string>
+			<key>area</key>
+			<string>ERII</string>
+			<key>type</key>
+			<string>Pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Syllabus ERII</string>
+			<key>area</key>
+			<string>ERII</string>
+			<key>type</key>
+			<string>URL</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Plaquette M&amp;I</string>
+			<key>area</key>
+			<string>M&amp;I</string>
+			<key>type</key>
+			<string>Pdf</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Syllabus Mat</string>
+			<key>area</key>
+			<string>Mat</string>
+			<key>type</key>
+			<string>URL</string>
+		</dict>
+	</array>
+</dict>
+</plist>
