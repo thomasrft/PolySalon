@@ -48,15 +48,15 @@
 		07B5554918D369D900EBA151 /* PSDataDocuments.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B5554718D369D900EBA151 /* PSDataDocuments.m */; };
 		07B5554B18D46C3600EBA151 /* Library property.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07B5554A18D46C3600EBA151 /* Library property.plist */; };
 		07B5554C18D46C3600EBA151 /* Library property.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07B5554A18D46C3600EBA151 /* Library property.plist */; };
+		4A52489218F3F94000A36025 /* FirstDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A52489118F3F94000A36025 /* FirstDetailView.xib */; };
+		4A52489418F3F95E00A36025 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A52489318F3F95E00A36025 /* MainWindow.xib */; };
+		4A52489618F3F96E00A36025 /* SecondDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A52489518F3F96E00A36025 /* SecondDetailView.xib */; };
+		4A52489918F3F98900A36025 /* PSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A52489818F3F98900A36025 /* PSAppDelegate.m */; };
 		E98AB7B718F36F2A0089A8B0 /* DetailViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7AE18F36F2A0089A8B0 /* DetailViewManager.m */; };
 		E98AB7B818F36F2A0089A8B0 /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7B018F36F2A0089A8B0 /* FirstTableViewController.m */; };
 		E98AB7B918F36F2A0089A8B0 /* SecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7B218F36F2A0089A8B0 /* SecondTableViewController.m */; };
 		E98AB7BA18F36F2A0089A8B0 /* FirstDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7B418F36F2A0089A8B0 /* FirstDetailViewController.m */; };
 		E98AB7BB18F36F2A0089A8B0 /* SecondDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7B618F36F2A0089A8B0 /* SecondDetailViewController.m */; };
-		E98AB7C218F370140089A8B0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E98AB7BC18F370140089A8B0 /* MainWindow.xib */; };
-		E98AB7C318F370140089A8B0 /* FirstDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E98AB7BE18F370140089A8B0 /* FirstDetailView.xib */; };
-		E98AB7C418F370140089A8B0 /* SecondDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E98AB7C018F370140089A8B0 /* SecondDetailView.xib */; };
-		E98AB7C718F370580089A8B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7C618F370580089A8B0 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +122,11 @@
 		07B5554618D369D800EBA151 /* PSDataDocuments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSDataDocuments.h; sourceTree = "<group>"; };
 		07B5554718D369D900EBA151 /* PSDataDocuments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSDataDocuments.m; sourceTree = "<group>"; };
 		07B5554A18D46C3600EBA151 /* Library property.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Library property.plist"; path = "../Library property.plist"; sourceTree = "<group>"; };
+		4A52489118F3F94000A36025 /* FirstDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstDetailView.xib; sourceTree = "<group>"; };
+		4A52489318F3F95E00A36025 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		4A52489518F3F96E00A36025 /* SecondDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondDetailView.xib; sourceTree = "<group>"; };
+		4A52489718F3F98300A36025 /* PSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSAppDelegate.h; sourceTree = "<group>"; };
+		4A52489818F3F98900A36025 /* PSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAppDelegate.m; sourceTree = "<group>"; };
 		E98AB7AD18F36F2A0089A8B0 /* DetailViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewManager.h; sourceTree = "<group>"; };
 		E98AB7AE18F36F2A0089A8B0 /* DetailViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewManager.m; sourceTree = "<group>"; };
 		E98AB7AF18F36F2A0089A8B0 /* FirstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewController.h; sourceTree = "<group>"; };
@@ -132,11 +137,6 @@
 		E98AB7B418F36F2A0089A8B0 /* FirstDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstDetailViewController.m; sourceTree = "<group>"; };
 		E98AB7B518F36F2A0089A8B0 /* SecondDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondDetailViewController.h; sourceTree = "<group>"; };
 		E98AB7B618F36F2A0089A8B0 /* SecondDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondDetailViewController.m; sourceTree = "<group>"; };
-		E98AB7BD18F370140089A8B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = ../../PolySalon/MultipleDetailViews/en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		E98AB7BF18F370140089A8B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = ../../PolySalon/MultipleDetailViews/en.lproj/FirstDetailView.xib; sourceTree = "<group>"; };
-		E98AB7C118F370140089A8B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = ../../PolySalon/MultipleDetailViews/en.lproj/SecondDetailView.xib; sourceTree = "<group>"; };
-		E98AB7C518F370580089A8B0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../../PolySalon/MultipleDetailViews/Classes/AppDelegate.h; sourceTree = "<group>"; };
-		E98AB7C618F370580089A8B0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../../PolySalon/MultipleDetailViews/Classes/AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,9 +171,9 @@
 				0760E25A18D039B5006133F3 /* Business classes */,
 				0760E25B18D03A07006133F3 /* Model classes */,
 				0731D45418CCA72700373AE1 /* Polytech_Salon.storyboard */,
-				E98AB7BC18F370140089A8B0 /* MainWindow.xib */,
-				E98AB7BE18F370140089A8B0 /* FirstDetailView.xib */,
-				E98AB7C018F370140089A8B0 /* SecondDetailView.xib */,
+				4A52489118F3F94000A36025 /* FirstDetailView.xib */,
+				4A52489318F3F95E00A36025 /* MainWindow.xib */,
+				4A52489518F3F96E00A36025 /* SecondDetailView.xib */,
 				0731D42918CCA32300373AE1 /* Polytech Salon */,
 				0731D44218CCA32300373AE1 /* Polytech SalonTests */,
 				0731D42218CCA32300373AE1 /* Frameworks */,
@@ -204,8 +204,8 @@
 		0731D42918CCA32300373AE1 /* Polytech Salon */ = {
 			isa = PBXGroup;
 			children = (
-				E98AB7C518F370580089A8B0 /* AppDelegate.h */,
-				E98AB7C618F370580089A8B0 /* AppDelegate.m */,
+				4A52489718F3F98300A36025 /* PSAppDelegate.h */,
+				4A52489818F3F98900A36025 /* PSAppDelegate.m */,
 				0731D43218CCA32300373AE1 /* PSAppDelegate.h */,
 				0731D43318CCA32300373AE1 /* PSAppDelegate.m */,
 				0731D43518CCA32300373AE1 /* Images.xcassets */,
@@ -394,14 +394,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E98AB7C318F370140089A8B0 /* FirstDetailView.xib in Resources */,
+				4A52489618F3F96E00A36025 /* SecondDetailView.xib in Resources */,
+				4A52489218F3F94000A36025 /* FirstDetailView.xib in Resources */,
 				0731D42E18CCA32300373AE1 /* InfoPlist.strings in Resources */,
 				079F6B1C18D59B0700943066 /* Library property backup in Resources */,
-				E98AB7C218F370140089A8B0 /* MainWindow.xib in Resources */,
 				0731D45518CCA72700373AE1 /* Polytech_Salon.storyboard in Resources */,
 				07B5554B18D46C3600EBA151 /* Library property.plist in Resources */,
 				0731D43618CCA32300373AE1 /* Images.xcassets in Resources */,
-				E98AB7C418F370140089A8B0 /* SecondDetailView.xib in Resources */,
+				4A52489418F3F95E00A36025 /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +422,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E98AB7C718F370580089A8B0 /* AppDelegate.m in Sources */,
 				0731D43018CCA32300373AE1 /* main.m in Sources */,
 				0731D45D18CCBB4200373AE1 /* PSDocument.m in Sources */,
 				0760E26318D03A95006133F3 /* CFDefaultModelDelegateObserved.m in Sources */,
@@ -432,6 +431,7 @@
 				0731D45918CCA7B900373AE1 /* PSType.m in Sources */,
 				0760E1E118CDF0E5006133F3 /* PSPoolTableViewController.m in Sources */,
 				E98AB7BA18F36F2A0089A8B0 /* FirstDetailViewController.m in Sources */,
+				4A52489918F3F98900A36025 /* PSAppDelegate.m in Sources */,
 				E98AB7B818F36F2A0089A8B0 /* FirstTableViewController.m in Sources */,
 				0760E1E418CDF1A4006133F3 /* PSPoolCell.m in Sources */,
 				0760E27618D04A1B006133F3 /* PSSetOfAreas.m in Sources */,
@@ -492,30 +492,6 @@
 				0731D45318CCA68F00373AE1 /* fr */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		E98AB7BC18F370140089A8B0 /* MainWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E98AB7BD18F370140089A8B0 /* en */,
-			);
-			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		E98AB7BE18F370140089A8B0 /* FirstDetailView.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E98AB7BF18F370140089A8B0 /* en */,
-			);
-			name = FirstDetailView.xib;
-			sourceTree = "<group>";
-		};
-		E98AB7C018F370140089A8B0 /* SecondDetailView.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E98AB7C118F370140089A8B0 /* en */,
-			);
-			name = SecondDetailView.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
