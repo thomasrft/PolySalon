@@ -57,6 +57,10 @@
 		E98AB7C318F370140089A8B0 /* FirstDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E98AB7BE18F370140089A8B0 /* FirstDetailView.xib */; };
 		E98AB7C418F370140089A8B0 /* SecondDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E98AB7C018F370140089A8B0 /* SecondDetailView.xib */; };
 		E98AB7C718F370580089A8B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7C618F370580089A8B0 /* AppDelegate.m */; };
+		E98AB7CC18F37C7B0089A8B0 /* SalonSelectTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E98AB7CA18F37C7B0089A8B0 /* SalonSelectTableView.xib */; };
+		E98AB7CF18F37D390089A8B0 /* SalonSelectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7CE18F37D390089A8B0 /* SalonSelectTableViewController.m */; };
+		E98AB7D218F39BF80089A8B0 /* InSalonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7D118F39BF80089A8B0 /* InSalonViewController.m */; };
+		E98AB7D518F39FFC0089A8B0 /* MainNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7D418F39FFC0089A8B0 /* MainNavController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,6 +141,13 @@
 		E98AB7C118F370140089A8B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = ../../PolySalon/MultipleDetailViews/en.lproj/SecondDetailView.xib; sourceTree = "<group>"; };
 		E98AB7C518F370580089A8B0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../../PolySalon/MultipleDetailViews/Classes/AppDelegate.h; sourceTree = "<group>"; };
 		E98AB7C618F370580089A8B0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../../PolySalon/MultipleDetailViews/Classes/AppDelegate.m; sourceTree = "<group>"; };
+		E98AB7CA18F37C7B0089A8B0 /* SalonSelectTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SalonSelectTableView.xib; sourceTree = "<group>"; };
+		E98AB7CD18F37D390089A8B0 /* SalonSelectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalonSelectTableViewController.h; sourceTree = "<group>"; };
+		E98AB7CE18F37D390089A8B0 /* SalonSelectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalonSelectTableViewController.m; sourceTree = "<group>"; };
+		E98AB7D018F39BF80089A8B0 /* InSalonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InSalonViewController.h; sourceTree = "<group>"; };
+		E98AB7D118F39BF80089A8B0 /* InSalonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InSalonViewController.m; sourceTree = "<group>"; };
+		E98AB7D318F39FFC0089A8B0 /* MainNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavController.h; sourceTree = "<group>"; };
+		E98AB7D418F39FFC0089A8B0 /* MainNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +183,7 @@
 				0760E25B18D03A07006133F3 /* Model classes */,
 				0731D45418CCA72700373AE1 /* Polytech_Salon.storyboard */,
 				E98AB7BC18F370140089A8B0 /* MainWindow.xib */,
+				E98AB7CA18F37C7B0089A8B0 /* SalonSelectTableView.xib */,
 				E98AB7BE18F370140089A8B0 /* FirstDetailView.xib */,
 				E98AB7C018F370140089A8B0 /* SecondDetailView.xib */,
 				0731D42918CCA32300373AE1 /* Polytech Salon */,
@@ -296,6 +308,8 @@
 		E98AB7AC18F36EBB0089A8B0 /* UI Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E98AB7CD18F37D390089A8B0 /* SalonSelectTableViewController.h */,
+				E98AB7CE18F37D390089A8B0 /* SalonSelectTableViewController.m */,
 				E98AB7AD18F36F2A0089A8B0 /* DetailViewManager.h */,
 				E98AB7AE18F36F2A0089A8B0 /* DetailViewManager.m */,
 				E98AB7AF18F36F2A0089A8B0 /* FirstTableViewController.h */,
@@ -310,6 +324,10 @@
 				0760E1E018CDF0E5006133F3 /* PSPoolTableViewController.m */,
 				0760E1E218CDF1A4006133F3 /* PSPoolCell.h */,
 				0760E1E318CDF1A4006133F3 /* PSPoolCell.m */,
+				E98AB7D018F39BF80089A8B0 /* InSalonViewController.h */,
+				E98AB7D118F39BF80089A8B0 /* InSalonViewController.m */,
+				E98AB7D318F39FFC0089A8B0 /* MainNavController.h */,
+				E98AB7D418F39FFC0089A8B0 /* MainNavController.m */,
 			);
 			name = "UI Classes";
 			sourceTree = "<group>";
@@ -402,6 +420,7 @@
 				07B5554B18D46C3600EBA151 /* Library property.plist in Resources */,
 				0731D43618CCA32300373AE1 /* Images.xcassets in Resources */,
 				E98AB7C418F370140089A8B0 /* SecondDetailView.xib in Resources */,
+				E98AB7CC18F37C7B0089A8B0 /* SalonSelectTableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,10 +454,13 @@
 				E98AB7B818F36F2A0089A8B0 /* FirstTableViewController.m in Sources */,
 				0760E1E418CDF1A4006133F3 /* PSPoolCell.m in Sources */,
 				0760E27618D04A1B006133F3 /* PSSetOfAreas.m in Sources */,
+				E98AB7D218F39BF80089A8B0 /* InSalonViewController.m in Sources */,
 				0731D46918CD032A00373AE1 /* PSLibrary.m in Sources */,
 				07B5554818D369D900EBA151 /* PSDataDocuments.m in Sources */,
 				0760E27218D04144006133F3 /* PSSetOfTypes.m in Sources */,
+				E98AB7CF18F37D390089A8B0 /* SalonSelectTableViewController.m in Sources */,
 				0760E27E18D1EF42006133F3 /* NSMutableSet+PSSet.m in Sources */,
+				E98AB7D518F39FFC0089A8B0 /* MainNavController.m in Sources */,
 				E98AB7B918F36F2A0089A8B0 /* SecondTableViewController.m in Sources */,
 				0731D46118CCFCEF00373AE1 /* PSArea.m in Sources */,
 				E98AB7B718F36F2A0089A8B0 /* DetailViewManager.m in Sources */,
