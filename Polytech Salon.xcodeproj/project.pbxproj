@@ -48,9 +48,6 @@
 		07B5554918D369D900EBA151 /* PSDataDocuments.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B5554718D369D900EBA151 /* PSDataDocuments.m */; };
 		07B5554B18D46C3600EBA151 /* Library property.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07B5554A18D46C3600EBA151 /* Library property.plist */; };
 		07B5554C18D46C3600EBA151 /* Library property.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07B5554A18D46C3600EBA151 /* Library property.plist */; };
-		4A52489218F3F94000A36025 /* FirstDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A52489118F3F94000A36025 /* FirstDetailView.xib */; };
-		4A52489418F3F95E00A36025 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A52489318F3F95E00A36025 /* MainWindow.xib */; };
-		4A52489618F3F96E00A36025 /* SecondDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A52489518F3F96E00A36025 /* SecondDetailView.xib */; };
 		4A52489918F3F98900A36025 /* PSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A52489818F3F98900A36025 /* PSAppDelegate.m */; };
 		4AA8965B18F42927001C6B5C /* Polytech Salon.app in Resources */ = {isa = PBXBuildFile; fileRef = 0731D42018CCA32300373AE1 /* Polytech Salon.app */; };
 		E98AB7B718F36F2A0089A8B0 /* DetailViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7AE18F36F2A0089A8B0 /* DetailViewManager.m */; };
@@ -123,9 +120,6 @@
 		07B5554618D369D800EBA151 /* PSDataDocuments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSDataDocuments.h; sourceTree = "<group>"; };
 		07B5554718D369D900EBA151 /* PSDataDocuments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSDataDocuments.m; sourceTree = "<group>"; };
 		07B5554A18D46C3600EBA151 /* Library property.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Library property.plist"; path = "../Library property.plist"; sourceTree = "<group>"; };
-		4A52489118F3F94000A36025 /* FirstDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstDetailView.xib; sourceTree = "<group>"; };
-		4A52489318F3F95E00A36025 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		4A52489518F3F96E00A36025 /* SecondDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondDetailView.xib; sourceTree = "<group>"; };
 		4A52489718F3F98300A36025 /* PSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSAppDelegate.h; sourceTree = "<group>"; };
 		4A52489818F3F98900A36025 /* PSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAppDelegate.m; sourceTree = "<group>"; };
 		E98AB7AD18F36F2A0089A8B0 /* DetailViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewManager.h; sourceTree = "<group>"; };
@@ -172,9 +166,6 @@
 				0760E25A18D039B5006133F3 /* Business classes */,
 				0760E25B18D03A07006133F3 /* Model classes */,
 				0731D45418CCA72700373AE1 /* Polytech_Salon.storyboard */,
-				4A52489118F3F94000A36025 /* FirstDetailView.xib */,
-				4A52489318F3F95E00A36025 /* MainWindow.xib */,
-				4A52489518F3F96E00A36025 /* SecondDetailView.xib */,
 				0731D42918CCA32300373AE1 /* Polytech Salon */,
 				0731D44218CCA32300373AE1 /* Polytech SalonTests */,
 				0731D42218CCA32300373AE1 /* Frameworks */,
@@ -395,15 +386,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A52489618F3F96E00A36025 /* SecondDetailView.xib in Resources */,
-				4A52489218F3F94000A36025 /* FirstDetailView.xib in Resources */,
 				0731D42E18CCA32300373AE1 /* InfoPlist.strings in Resources */,
 				4AA8965B18F42927001C6B5C /* Polytech Salon.app in Resources */,
 				079F6B1C18D59B0700943066 /* Library property backup in Resources */,
 				0731D45518CCA72700373AE1 /* Polytech_Salon.storyboard in Resources */,
 				07B5554B18D46C3600EBA151 /* Library property.plist in Resources */,
 				0731D43618CCA32300373AE1 /* Images.xcassets in Resources */,
-				4A52489418F3F95E00A36025 /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
