@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6DC5CF7C-52B3-4C20-9D50-C28A600CC2A5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Polytech Salon</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>02A8298F-FCCD-4233-A17A-1A58F4CEBD6D</key>
+		<string>https://github.com/thomasrft/PolySalon.git</string>
+		<key>362BE379-5883-48E1-AC2F-5D16FC51F650</key>
+		<string>https://github.com/thomasrft/PolySalon.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Polytech Salon.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>02A8298F-FCCD-4233-A17A-1A58F4CEBD6D</key>
+		<string>../..</string>
+		<key>362BE379-5883-48E1-AC2F-5D16FC51F650</key>
+		<string>../../../../PolySalon</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/thomasrft/PolySalon.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>02A8298F-FCCD-4233-A17A-1A58F4CEBD6D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>362BE379-5883-48E1-AC2F-5D16FC51F650</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PolySalon</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>02A8298F-FCCD-4233-A17A-1A58F4CEBD6D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Polytech Salon</string>
+		</dict>
+	</array>
+</dict>
+</plist>
