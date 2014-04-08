@@ -52,6 +52,7 @@
 		4A52489418F3F95E00A36025 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A52489318F3F95E00A36025 /* MainWindow.xib */; };
 		4A52489618F3F96E00A36025 /* SecondDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A52489518F3F96E00A36025 /* SecondDetailView.xib */; };
 		4A52489918F3F98900A36025 /* PSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A52489818F3F98900A36025 /* PSAppDelegate.m */; };
+		4AA8965B18F42927001C6B5C /* Polytech Salon.app in Resources */ = {isa = PBXBuildFile; fileRef = 0731D42018CCA32300373AE1 /* Polytech Salon.app */; };
 		E98AB7B718F36F2A0089A8B0 /* DetailViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7AE18F36F2A0089A8B0 /* DetailViewManager.m */; };
 		E98AB7B818F36F2A0089A8B0 /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7B018F36F2A0089A8B0 /* FirstTableViewController.m */; };
 		E98AB7B918F36F2A0089A8B0 /* SecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7B218F36F2A0089A8B0 /* SecondTableViewController.m */; };
@@ -397,6 +398,7 @@
 				4A52489618F3F96E00A36025 /* SecondDetailView.xib in Resources */,
 				4A52489218F3F94000A36025 /* FirstDetailView.xib in Resources */,
 				0731D42E18CCA32300373AE1 /* InfoPlist.strings in Resources */,
+				4AA8965B18F42927001C6B5C /* Polytech Salon.app in Resources */,
 				079F6B1C18D59B0700943066 /* Library property backup in Resources */,
 				0731D45518CCA72700373AE1 /* Polytech_Salon.storyboard in Resources */,
 				07B5554B18D46C3600EBA151 /* Library property.plist in Resources */,
