@@ -48,6 +48,8 @@
 		07B5554918D369D900EBA151 /* PSDataDocuments.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B5554718D369D900EBA151 /* PSDataDocuments.m */; };
 		07B5554B18D46C3600EBA151 /* Library property.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07B5554A18D46C3600EBA151 /* Library property.plist */; };
 		07B5554C18D46C3600EBA151 /* Library property.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07B5554A18D46C3600EBA151 /* Library property.plist */; };
+		4A52489918F3F98900A36025 /* PSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A52489818F3F98900A36025 /* PSAppDelegate.m */; };
+		4AA8965B18F42927001C6B5C /* Polytech Salon.app in Resources */ = {isa = PBXBuildFile; fileRef = 0731D42018CCA32300373AE1 /* Polytech Salon.app */; };
 		E98AB7B718F36F2A0089A8B0 /* DetailViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7AE18F36F2A0089A8B0 /* DetailViewManager.m */; };
 		E98AB7B818F36F2A0089A8B0 /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7B018F36F2A0089A8B0 /* FirstTableViewController.m */; };
 		E98AB7B918F36F2A0089A8B0 /* SecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7B218F36F2A0089A8B0 /* SecondTableViewController.m */; };
@@ -125,6 +127,8 @@
 		07B5554618D369D800EBA151 /* PSDataDocuments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSDataDocuments.h; sourceTree = "<group>"; };
 		07B5554718D369D900EBA151 /* PSDataDocuments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSDataDocuments.m; sourceTree = "<group>"; };
 		07B5554A18D46C3600EBA151 /* Library property.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Library property.plist"; path = "../Library property.plist"; sourceTree = "<group>"; };
+		4A52489718F3F98300A36025 /* PSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSAppDelegate.h; sourceTree = "<group>"; };
+		4A52489818F3F98900A36025 /* PSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAppDelegate.m; sourceTree = "<group>"; };
 		E98AB7AD18F36F2A0089A8B0 /* DetailViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewManager.h; sourceTree = "<group>"; };
 		E98AB7AE18F36F2A0089A8B0 /* DetailViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewManager.m; sourceTree = "<group>"; };
 		E98AB7AF18F36F2A0089A8B0 /* FirstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewController.h; sourceTree = "<group>"; };
@@ -212,8 +216,8 @@
 		0731D42918CCA32300373AE1 /* Polytech Salon */ = {
 			isa = PBXGroup;
 			children = (
-				E98AB7C518F370580089A8B0 /* AppDelegate.h */,
-				E98AB7C618F370580089A8B0 /* AppDelegate.m */,
+				4A52489718F3F98300A36025 /* PSAppDelegate.h */,
+				4A52489818F3F98900A36025 /* PSAppDelegate.m */,
 				0731D43218CCA32300373AE1 /* PSAppDelegate.h */,
 				0731D43318CCA32300373AE1 /* PSAppDelegate.m */,
 				0731D43518CCA32300373AE1 /* Images.xcassets */,
@@ -409,14 +413,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E98AB7C318F370140089A8B0 /* FirstDetailView.xib in Resources */,
 				0731D42E18CCA32300373AE1 /* InfoPlist.strings in Resources */,
+				4AA8965B18F42927001C6B5C /* Polytech Salon.app in Resources */,
 				079F6B1C18D59B0700943066 /* Library property backup in Resources */,
-				E98AB7C218F370140089A8B0 /* MainWindow.xib in Resources */,
 				0731D45518CCA72700373AE1 /* Polytech_Salon.storyboard in Resources */,
 				07B5554B18D46C3600EBA151 /* Library property.plist in Resources */,
 				0731D43618CCA32300373AE1 /* Images.xcassets in Resources */,
-				E98AB7C418F370140089A8B0 /* SecondDetailView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +439,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E98AB7C718F370580089A8B0 /* AppDelegate.m in Sources */,
 				0731D43018CCA32300373AE1 /* main.m in Sources */,
 				0731D45D18CCBB4200373AE1 /* PSDocument.m in Sources */,
 				0760E26318D03A95006133F3 /* CFDefaultModelDelegateObserved.m in Sources */,
@@ -447,6 +448,7 @@
 				0731D45918CCA7B900373AE1 /* PSType.m in Sources */,
 				0760E1E118CDF0E5006133F3 /* PSPoolTableViewController.m in Sources */,
 				E98AB7BA18F36F2A0089A8B0 /* FirstDetailViewController.m in Sources */,
+				4A52489918F3F98900A36025 /* PSAppDelegate.m in Sources */,
 				E98AB7B818F36F2A0089A8B0 /* FirstTableViewController.m in Sources */,
 				0760E1E418CDF1A4006133F3 /* PSPoolCell.m in Sources */,
 				0760E27618D04A1B006133F3 /* PSSetOfAreas.m in Sources */,
@@ -510,30 +512,6 @@
 				0731D45318CCA68F00373AE1 /* fr */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		E98AB7BC18F370140089A8B0 /* MainWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E98AB7BD18F370140089A8B0 /* en */,
-			);
-			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		E98AB7BE18F370140089A8B0 /* FirstDetailView.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E98AB7BF18F370140089A8B0 /* en */,
-			);
-			name = FirstDetailView.xib;
-			sourceTree = "<group>";
-		};
-		E98AB7C018F370140089A8B0 /* SecondDetailView.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E98AB7C118F370140089A8B0 /* en */,
-			);
-			name = SecondDetailView.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
