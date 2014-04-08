@@ -9,7 +9,7 @@
 - (void)dealloc 
 {
     self.navigationBar = nil;
-    self.navigationPaneBarButtonItem = nil;
+    self.navigationPaneBarButtonItem = nil; 
 }
 
 #pragma mark -
