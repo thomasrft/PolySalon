@@ -6,7 +6,6 @@
 #import "DetailViewController.h"
 #import "SecondDetailViewController.h"
 #import "SalonSelectTableViewController.h"
-#import "PSPoolTableViewController.h"
 #import "CreateDocument.h"
 
 @implementation FirstTableViewController
@@ -82,19 +81,19 @@
     
     // Set appropriate labels for the cells.
     if (indexPath.row == 0) {
-        cell.textLabel.text = @"Pools";
+        cell.textLabel.text = @"Créer Document";
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
     
     // ICI pour charger les documents en mémoire
     else if (indexPath.row == 1) {
-        cell.textLabel.text = @"Créer Documents";
+        cell.textLabel.text = @"Doc1";
         cell.accessoryType = UITableViewCellAccessoryNone ;
     }
     else if (indexPath.row==2){
         cell.textLabel.highlighted= YES;
-        cell.textLabel.text = @"Créer Pools";
-        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+        cell.textLabel.text = @"Doc2";
+        cell.accessoryType = UITableViewCellAccessoryNone;
     }
     
     return cell;
@@ -119,7 +118,7 @@
     if (row == 0) {
         UIViewController <SubstitutableDetailViewController> *detailViewController = nil;
         
-        CreateDocument *newDetailViewController = [[CreateDocument alloc] initWithNibName:@"View"
+        CreateDocument *newDetailViewController = [[CreateDocument alloc] initWithNibName:@"CreateDocumentView"
          bundle:nil];
         detailViewController=newDetailViewController;
         detailViewController.title = [tableView cellForRowAtIndexPath:indexPath].textLabel.text;
