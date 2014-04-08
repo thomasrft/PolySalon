@@ -6,6 +6,7 @@
 #import "FirstDetailViewController.h"
 #import "SecondDetailViewController.h"
 #import "SalonSelectTableViewController.h"
+#import "PSPoolTableViewController.h"
 
 @implementation FirstTableViewController
 

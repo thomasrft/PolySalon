@@ -7,7 +7,6 @@
         <!--Pool Table View Controller-->
         <scene sceneID="OIn-e6-fu0">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="AZ4-tm-5vV" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="g1T-eq-7Vn" customClass="PSPoolTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="41" sectionHeaderHeight="10" sectionFooterHeight="10" id="LRP-Ee-N7b">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
@@ -57,6 +56,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="HOP-HL-SlW"/>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AZ4-tm-5vV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="269" y="-1254"/>
         </scene>
@@ -69,12 +69,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="jdd-Eg-nEK" customClass="PSPoolCell">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="A" editingAccessoryType="checkmark" textLabel="iZO-Jo-N9V" style="IBUITableViewCellStyleDefault" id="Qf0-aF-FGe">
                                 <rect key="frame" x="0.0" y="22" width="768" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jdd-Eg-nEK" id="wym-MM-wNp">
-                                    <rect key="frame" x="0.0" y="0.0" width="768" height="43"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Qf0-aF-FGe" id="oQg-bD-4pW">
+                                    <rect key="frame" x="0.0" y="0.0" width="735" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iZO-Jo-N9V">
+                                            <rect key="frame" x="15" y="0.0" width="718" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -92,12 +101,6 @@
         <!--First Detail View Controller-->
         <scene sceneID="b7y-uv-EZ7">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3tD-z8-XjB" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <customObject id="ehQ-Jx-0z7" customClass="DetailViewManager">
-                    <connections>
-                        <outlet property="detailViewController" destination="bbi-Ig-Oue" id="pef-7q-rdV"/>
-                    </connections>
-                </customObject>
                 <viewController id="bbi-Ig-Oue" customClass="FirstDetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FHK-lZ-Mal"/>
@@ -110,13 +113,18 @@
                     </view>
                     <toolbarItems/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3tD-z8-XjB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="ehQ-Jx-0z7" customClass="DetailViewManager">
+                    <connections>
+                        <outlet property="detailViewController" destination="bbi-Ig-Oue" id="pef-7q-rdV"/>
+                    </connections>
+                </customObject>
             </objects>
             <point key="canvasLocation" x="-2332" y="-701"/>
         </scene>
         <!--First Table View Controller - Root View Controller-->
         <scene sceneID="IDi-2Z-8bf">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KTU-Lu-ucw" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController clearsSelectionOnViewWillAppear="NO" id="u2L-54-Egh" customClass="FirstTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="KY3-Z4-Lxi">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="852"/>
@@ -141,13 +149,13 @@
                     <navigationItem key="navigationItem" title="Root View Controller" id="ec0-UF-cUL"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KTU-Lu-ucw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1736" y="-1697"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="4QC-Wg-5ba">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="AZh-2i-hq8" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="lb3-JN-5U0" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="hvN-pv-BKS">
                         <autoresizingMask key="autoresizingMask"/>
@@ -156,6 +164,7 @@
                         <segue destination="u2L-54-Egh" kind="relationship" relationship="rootViewController" id="hTu-kq-Btn"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AZh-2i-hq8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2344" y="-1697"/>
         </scene>

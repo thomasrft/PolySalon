@@ -12,10 +12,10 @@
 #import "AppDelegate.h"
 
 @interface SalonSelectTableViewController ()
-
 @end
 
 @implementation SalonSelectTableViewController
+@synthesize library=_library;
 
 - (void)viewDidLoad
 {
@@ -56,14 +56,14 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"PSPoolCell";
-    PSPoolCell* cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    static NSString *CellIdentifier = @"A";
+    UITableViewCell* cell = [self.tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if(cell==nil){
+        cell=[[UITableViewCell alloc] init];
+    }
     // Configure the cell...
-    cell.nameLabel.text = [self.dataDocuments getDocumentNameForSection:indexPath.section andForRow:indexPath.row];
-    cell.typeLabel.text = [self.dataDocuments getTypeNameForSection:indexPath.section andForRow:indexPath.row];
-    cell.areaLabel.text = [self.dataDocuments getAreaNameForSection:indexPath.section];
+    cell.textLabel.text = [self.dataDocuments getDocumentNameForSection:indexPath.section andForRow:indexPath.row];
     return cell;
-
 }
 
 
