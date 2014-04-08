@@ -1,7 +1,7 @@
 
-#import "FirstDetailViewController.h"
+#import "DetailViewController.h"
 
-@implementation FirstDetailViewController
+@implementation DetailViewController
 
 // -------------------------------------------------------------------------------
 //	dealloc

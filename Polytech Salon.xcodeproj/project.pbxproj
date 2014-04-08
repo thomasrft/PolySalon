@@ -49,10 +49,13 @@
 		07B5554B18D46C3600EBA151 /* Library property.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07B5554A18D46C3600EBA151 /* Library property.plist */; };
 		07B5554C18D46C3600EBA151 /* Library property.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07B5554A18D46C3600EBA151 /* Library property.plist */; };
 		E95C802118F3C4320098FA91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7C618F370580089A8B0 /* AppDelegate.m */; };
+		E95C802918F3CBFD0098FA91 /* CreateDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = E95C802818F3CBFD0098FA91 /* CreateDocument.m */; };
+		E95C803818F3DB9D0098FA91 /* CreateDocumentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E95C803718F3DB9D0098FA91 /* CreateDocumentView.xib */; };
+		E95C803A18F3DF030098FA91 /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E95C803918F3DF030098FA91 /* DetailView.xib */; };
 		E98AB7B718F36F2A0089A8B0 /* DetailViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7AE18F36F2A0089A8B0 /* DetailViewManager.m */; };
 		E98AB7B818F36F2A0089A8B0 /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7B018F36F2A0089A8B0 /* FirstTableViewController.m */; };
 		E98AB7B918F36F2A0089A8B0 /* SecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7B218F36F2A0089A8B0 /* SecondTableViewController.m */; };
-		E98AB7BA18F36F2A0089A8B0 /* FirstDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7B418F36F2A0089A8B0 /* FirstDetailViewController.m */; };
+		E98AB7BA18F36F2A0089A8B0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7B418F36F2A0089A8B0 /* DetailViewController.m */; };
 		E98AB7BB18F36F2A0089A8B0 /* SecondDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7B618F36F2A0089A8B0 /* SecondDetailViewController.m */; };
 		E98AB7CF18F37D390089A8B0 /* SalonSelectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7CE18F37D390089A8B0 /* SalonSelectTableViewController.m */; };
 		E98AB7D218F39BF80089A8B0 /* InSalonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98AB7D118F39BF80089A8B0 /* InSalonViewController.m */; };
@@ -122,14 +125,18 @@
 		07B5554618D369D800EBA151 /* PSDataDocuments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSDataDocuments.h; sourceTree = "<group>"; };
 		07B5554718D369D900EBA151 /* PSDataDocuments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSDataDocuments.m; sourceTree = "<group>"; };
 		07B5554A18D46C3600EBA151 /* Library property.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Library property.plist"; path = "../Library property.plist"; sourceTree = "<group>"; };
+		E95C802718F3CBFD0098FA91 /* CreateDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateDocument.h; sourceTree = "<group>"; };
+		E95C802818F3CBFD0098FA91 /* CreateDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateDocument.m; sourceTree = "<group>"; };
+		E95C803718F3DB9D0098FA91 /* CreateDocumentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateDocumentView.xib; sourceTree = "<group>"; };
+		E95C803918F3DF030098FA91 /* DetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
 		E98AB7AD18F36F2A0089A8B0 /* DetailViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewManager.h; sourceTree = "<group>"; };
 		E98AB7AE18F36F2A0089A8B0 /* DetailViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewManager.m; sourceTree = "<group>"; };
 		E98AB7AF18F36F2A0089A8B0 /* FirstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewController.h; sourceTree = "<group>"; };
 		E98AB7B018F36F2A0089A8B0 /* FirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
 		E98AB7B118F36F2A0089A8B0 /* SecondTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTableViewController.h; sourceTree = "<group>"; };
 		E98AB7B218F36F2A0089A8B0 /* SecondTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTableViewController.m; sourceTree = "<group>"; };
-		E98AB7B318F36F2A0089A8B0 /* FirstDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstDetailViewController.h; sourceTree = "<group>"; };
-		E98AB7B418F36F2A0089A8B0 /* FirstDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstDetailViewController.m; sourceTree = "<group>"; };
+		E98AB7B318F36F2A0089A8B0 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E98AB7B418F36F2A0089A8B0 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		E98AB7B518F36F2A0089A8B0 /* SecondDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondDetailViewController.h; sourceTree = "<group>"; };
 		E98AB7B618F36F2A0089A8B0 /* SecondDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondDetailViewController.m; sourceTree = "<group>"; };
 		E98AB7C518F370580089A8B0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../../PolySalon/MultipleDetailViews/Classes/AppDelegate.h; sourceTree = "<group>"; };
@@ -304,8 +311,8 @@
 				E98AB7B018F36F2A0089A8B0 /* FirstTableViewController.m */,
 				E98AB7B118F36F2A0089A8B0 /* SecondTableViewController.h */,
 				E98AB7B218F36F2A0089A8B0 /* SecondTableViewController.m */,
-				E98AB7B318F36F2A0089A8B0 /* FirstDetailViewController.h */,
-				E98AB7B418F36F2A0089A8B0 /* FirstDetailViewController.m */,
+				E98AB7B318F36F2A0089A8B0 /* DetailViewController.h */,
+				E98AB7B418F36F2A0089A8B0 /* DetailViewController.m */,
 				E98AB7B518F36F2A0089A8B0 /* SecondDetailViewController.h */,
 				E98AB7B618F36F2A0089A8B0 /* SecondDetailViewController.m */,
 				0760E1DF18CDF0E5006133F3 /* PSPoolTableViewController.h */,
@@ -316,6 +323,10 @@
 				E98AB7D118F39BF80089A8B0 /* InSalonViewController.m */,
 				E98AB7D318F39FFC0089A8B0 /* MainNavController.h */,
 				E98AB7D418F39FFC0089A8B0 /* MainNavController.m */,
+				E95C802718F3CBFD0098FA91 /* CreateDocument.h */,
+				E95C802818F3CBFD0098FA91 /* CreateDocument.m */,
+				E95C803918F3DF030098FA91 /* DetailView.xib */,
+				E95C803718F3DB9D0098FA91 /* CreateDocumentView.xib */,
 			);
 			name = "UI Classes";
 			sourceTree = "<group>";
@@ -404,7 +415,9 @@
 				079F6B1C18D59B0700943066 /* Library property backup in Resources */,
 				0731D45518CCA72700373AE1 /* Polytech_Salon.storyboard in Resources */,
 				07B5554B18D46C3600EBA151 /* Library property.plist in Resources */,
+				E95C803818F3DB9D0098FA91 /* CreateDocumentView.xib in Resources */,
 				0731D43618CCA32300373AE1 /* Images.xcassets in Resources */,
+				E95C803A18F3DF030098FA91 /* DetailView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +447,7 @@
 				0760E26418D03A95006133F3 /* CFDefaultModelObserved.m in Sources */,
 				0731D45918CCA7B900373AE1 /* PSType.m in Sources */,
 				0760E1E118CDF0E5006133F3 /* PSPoolTableViewController.m in Sources */,
-				E98AB7BA18F36F2A0089A8B0 /* FirstDetailViewController.m in Sources */,
+				E98AB7BA18F36F2A0089A8B0 /* DetailViewController.m in Sources */,
 				E98AB7B818F36F2A0089A8B0 /* FirstTableViewController.m in Sources */,
 				0760E1E418CDF1A4006133F3 /* PSPoolCell.m in Sources */,
 				0760E27618D04A1B006133F3 /* PSSetOfAreas.m in Sources */,
@@ -449,6 +462,7 @@
 				0731D46118CCFCEF00373AE1 /* PSArea.m in Sources */,
 				E98AB7B718F36F2A0089A8B0 /* DetailViewManager.m in Sources */,
 				E98AB7BB18F36F2A0089A8B0 /* SecondDetailViewController.m in Sources */,
+				E95C802918F3CBFD0098FA91 /* CreateDocument.m in Sources */,
 				0731D43418CCA32300373AE1 /* PSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

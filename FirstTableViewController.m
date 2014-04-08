@@ -3,10 +3,11 @@
 #import "FirstTableViewController.h"
 #import "DetailViewManager.h"
 #import "SecondTableViewController.h"
-#import "FirstDetailViewController.h"
+#import "DetailViewController.h"
 #import "SecondDetailViewController.h"
 #import "SalonSelectTableViewController.h"
 #import "PSPoolTableViewController.h"
+#import "CreateDocument.h"
 
 @implementation FirstTableViewController
 
@@ -116,6 +117,19 @@
     NSUInteger row = indexPath.row;
     
     if (row == 0) {
+        UIViewController <SubstitutableDetailViewController> *detailViewController = nil;
+        
+        CreateDocument *newDetailViewController = [[CreateDocument alloc] initWithNibName:@"View"
+         bundle:nil];
+        detailViewController=newDetailViewController;
+        detailViewController.title = [tableView cellForRowAtIndexPath:indexPath].textLabel.text;
+        
+        // DetailViewManager exposes a property, detailViewController.  Set this property
+        // to the detail view controller we want displayed.  Configuring the detail view
+        // controller to display the navigation button (if needed) and presenting it
+        // happens inside DetailViewManager.
+        detailViewManager.detailViewController = detailViewController;
+
     }
     else if (row==1){
         // Create and configure a new detail view controller appropriate for the selection.
@@ -137,7 +151,7 @@
         // Create and configure a new detail view controller appropriate for the selection.
         UIViewController <SubstitutableDetailViewController> *detailViewController = nil;
         
-        FirstDetailViewController *newDetailViewController = [[FirstDetailViewController alloc] initWithNibName:@"FirstDetailView" bundle:nil];
+        DetailViewController *newDetailViewController = [[DetailViewController alloc] initWithNibName:@"DetailView" bundle:nil];
         detailViewController = newDetailViewController;
         
         detailViewController.title = [tableView cellForRowAtIndexPath:indexPath].textLabel.text;

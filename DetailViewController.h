@@ -3,7 +3,7 @@
 #import <UIKit/UIKit.h>
 #import "DetailViewManager.h"
 
-@interface FirstDetailViewController : UIViewController <SubstitutableDetailViewController>
+@interface DetailViewController : UIViewController <SubstitutableDetailViewController>
 
 /// Things for IB
 @property (nonatomic, retain) IBOutlet UIToolbar *toolbar;
