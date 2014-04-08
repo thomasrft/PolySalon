@@ -5,6 +5,7 @@
 #import "SecondTableViewController.h"
 #import "FirstDetailViewController.h"
 #import "SecondDetailViewController.h"
+#import "SalonSelectTableViewController.h"
 
 @implementation FirstTableViewController
 
@@ -43,6 +44,11 @@
     SecondTableViewController *newTableViewController = [[SecondTableViewController alloc] init];
     [self.navigationController pushViewController:newTableViewController animated:YES];
 }
+- (IBAction)selectSalon
+{
+    SalonSelectTableViewController *newSalon = [[SalonSelectTableViewController alloc] init];
+    [self.navigationController pushViewController:newSalon animated:YES];
+}
 
 // -------------------------------------------------------------------------------
 //	tableView:cellForRowAtIndexPath:
@@ -57,6 +63,12 @@
                                    action:@selector(flipViewToDocs)];
 
     self.navigationItem.rightBarButtonItem = changeViewButton;
+    UIBarButtonItem *selectSalonButton =[[UIBarButtonItem alloc]
+                                         initWithTitle:@"Salon"
+                                         style:UIBarButtonItemStyleBordered
+                                         target:self
+                                         action:@selector(selectSalon)];
+    self.navigationItem.leftBarButtonItem=selectSalonButton;
     
     static NSString *CellIdentifier = @"Documents";
     

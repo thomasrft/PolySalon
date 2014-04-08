@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="Dij-TV-GXo">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="SVU-hK-MAT">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -69,8 +69,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="jdd-Eg-nEK">
-                                <rect key="frame" x="0.0" y="86" width="768" height="44"/>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="jdd-Eg-nEK" customClass="PSPoolCell">
+                                <rect key="frame" x="0.0" y="22" width="768" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jdd-Eg-nEK" id="wym-MM-wNp">
                                     <rect key="frame" x="0.0" y="0.0" width="768" height="43"/>
@@ -87,22 +87,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lit-2v-hbh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4051" y="-2184"/>
-        </scene>
-        <!--Main Nav Controller-->
-        <scene sceneID="sT3-el-QU5">
-            <objects>
-                <navigationController definesPresentationContext="YES" id="Dij-TV-GXo" customClass="MainNavController" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="TqG-Hk-dAl">
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="WAe-Cf-ftf" kind="relationship" relationship="rootViewController" id="mIE-tI-4Zg"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gK8-aV-XwJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-5055" y="-2184"/>
+            <point key="canvasLocation" x="-1203" y="-556"/>
         </scene>
         <!--First Detail View Controller-->
         <scene sceneID="b7y-uv-EZ7">
@@ -152,7 +137,9 @@
                             <outlet property="delegate" destination="u2L-54-Egh" id="baE-Qk-QCf"/>
                         </connections>
                     </tableView>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" title="Root View Controller" id="ec0-UF-cUL"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
             </objects>
             <point key="canvasLocation" x="-1736" y="-1697"/>
@@ -178,14 +165,20 @@
                 <splitViewController id="SVU-hK-MAT" customClass="InSalonViewController" sceneMemberID="viewController">
                     <toolbarItems/>
                     <connections>
-                        <outlet property="delegate" destination="ehQ-Jx-0z7" id="4ph-I1-s8z"/>
+                        <outlet property="delegate" destination="EPh-ui-hku" id="csj-rf-o9A"/>
                         <segue destination="bbi-Ig-Oue" kind="relationship" relationship="detailViewController" id="zpp-aF-Hgc"/>
                         <segue destination="lb3-JN-5U0" kind="relationship" relationship="masterViewController" id="uwr-sK-dOF"/>
                     </connections>
                 </splitViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CIL-Ah-8l8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="bp8-fr-Vl6" userLabel="App Delegate" customClass="AppDelegate"/>
+                <customObject id="EPh-ui-hku" customClass="DetailViewManager">
+                    <connections>
+                        <outlet property="splitViewController" destination="SVU-hK-MAT" id="Y91-h9-Riu"/>
+                    </connections>
+                </customObject>
             </objects>
-            <point key="canvasLocation" x="-3234" y="-1241"/>
+            <point key="canvasLocation" x="-3497" y="-1161"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

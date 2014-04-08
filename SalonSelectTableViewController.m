@@ -7,6 +7,9 @@
 //
 
 #import "SalonSelectTableViewController.h"
+#import "PSPoolCell.h"
+#import "PSDataDocuments.h"
+#import "AppDelegate.h"
 
 @interface SalonSelectTableViewController ()
 
@@ -16,6 +19,10 @@
 
 - (void)viewDidLoad
 {
+    [super viewDidLoad];
+    
+    self->_library=[(AppDelegate*)[[UIApplication sharedApplication] delegate] library];
+    self->_dataDocuments = [[PSDataDocuments alloc] initWithAreas:[self.library areas]];
     self.navigationItem.title=@"Choisir un salon";
     [super viewDidLoad];
     
@@ -37,41 +44,24 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
-    return 1;
+    return [self.dataDocuments numberOfSections];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return 3;
+    return [self.dataDocuments numberOfRowsForSection:section];
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Documents";
-    UITableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
-    }
-    
-    // Set appropriate labels for the cells.
-    if (indexPath.row == 0) {
-        cell.textLabel.text = @"Pools";
-        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    }
-    
-    // ICI pour charger les documents en mémoire
-    else if (indexPath.row == 1) {
-        cell.textLabel.text = @"Créer Documents";
-        cell.accessoryType = UITableViewCellAccessoryNone ;
-    }
-    else if (indexPath.row==2){
-        cell.textLabel.highlighted= YES;
-        cell.textLabel.text = @"Créer Pools";
-        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    }
-    
+    static NSString *CellIdentifier = @"PSPoolCell";
+    PSPoolCell* cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    // Configure the cell...
+    cell.nameLabel.text = [self.dataDocuments getDocumentNameForSection:indexPath.section andForRow:indexPath.row];
+    cell.typeLabel.text = [self.dataDocuments getTypeNameForSection:indexPath.section andForRow:indexPath.row];
+    cell.areaLabel.text = [self.dataDocuments getAreaNameForSection:indexPath.section];
     return cell;
 
 }

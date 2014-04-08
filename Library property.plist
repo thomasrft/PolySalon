@@ -5,8 +5,6 @@
 	<key>types</key>
 	<array>
 		<string>URL</string>
-		<string>Pdf</string>
-		<string>Jpeg</string>
 	</array>
 	<key>areas</key>
 	<array>
@@ -38,30 +36,6 @@
 			<string>IG</string>
 			<key>type</key>
 			<string>URL</string>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Plaquette ERII</string>
-			<key>area</key>
-			<string>ERII</string>
-			<key>type</key>
-			<string>Pdf</string>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Syllabus ERII</string>
-			<key>area</key>
-			<string>ERII</string>
-			<key>type</key>
-			<string>URL</string>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Plaquette M&amp;I</string>
-			<key>area</key>
-			<string>M&amp;I</string>
-			<key>type</key>
-			<string>Pdf</string>
 		</dict>
 		<dict>
 			<key>name</key>
